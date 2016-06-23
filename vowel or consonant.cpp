@@ -1,14 +1,14 @@
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
     char alphabet;
-    char a,e,i,o,u;
    cout << "Enter a character"<< endl;
    cin>>alphabet;
-   if(alphabet==a,e,i,o,u)
+   if(alphabet=='a' || alphabet=='A' || alphabet=='e' || alphabet=='E' ||
+	alphabet=='i' || alphabet=='I' || alphabet=='o' || alphabet=='O' ||
+	alphabet=='u' || alphabet=='U')
    {
         cout << " The entered character is a Vowel" << endl;
    }
